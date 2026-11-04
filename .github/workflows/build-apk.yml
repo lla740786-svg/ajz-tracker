@@ -23,7 +23,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y unzip
-          unzip -q AjzTracker_Android_Project.zip -d .
+          unzip -q AjzTracker_Android_Project_v2.zip -d .
           cd AjzTracker
           gradle assembleDebug
 
